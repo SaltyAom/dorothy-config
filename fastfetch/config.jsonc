@@ -1,0 +1,37 @@
+// Load with --load-config examples/3.jsonc
+
+{
+    "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+    "display": {
+        "size": {
+            "binaryPrefix": "si"
+        }
+    },
+    "modules": [
+	{
+		"type": "custom",
+		"format": "\n"
+	},
+	"title",
+	"separator",
+        "os",
+        "host",
+        "kernel",
+	"de",
+	"wm",
+	"wmtheme",
+	"uptime",
+	"shell",
+	"terminal",
+	"cpu",
+	"cpuusage",
+	"gpu",
+        "memory"
+    ],
+    "logo": {
+	    "type": "kitty",
+	    "source": "~/Pictures/dorothy.png",
+	    "width": 34,
+	    "height": 16
+    }
+}
